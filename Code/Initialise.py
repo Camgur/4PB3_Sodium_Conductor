@@ -22,14 +22,14 @@ from mace.calculators import MACECalculator
 
 # Set the calulation parameters
 calculator = MACECalculator(model_paths='/home/camgur/Documents/Coding/Chem_4PB3/Resources/2024-01-07-mace-128-L2_epoch-199.model', device='cuda', default_dtype='float64')
-init_conf = read('/home/camgur/Documents/Coding/Chem_4PB3/Na4Sn2Ge5O16_filthy.xyz', '0')
+init_conf = read('/home/camgur/Documents/Coding/Chem_4PB3/Resources/Na4Sn2Ge5O16_Fixed.xyz', '0')
 init_conf.cell = [6.50630, 11.91200, 18.99500]
 init_conf.set_pbc(True) # Set as repeating boundary periodic
 init_conf.set_calculator(calculator)
 print(init_conf)
 
 e = init_conf.get_potential_energy()
-# print(e)
+print(e)
 
 forces = init_conf.get_forces()
 # print(forces)
@@ -43,8 +43,8 @@ formula = init_conf.get_chemical_formula()
 
 
 # Run geometry optimisation from MACE forces
-dyn = BFGS(init_conf, trajectory='/home/camgur/Documents/Coding/Chem_4PB3/Resources/Un_Filthify.traj')
-def write():
-        dyn.atoms.write('/home/camgur/Documents/Coding/Chem_4PB3/Resources/Un_Filthied.xyz')
-dyn.attach(write)
-dyn.run(fmax=0.05)
+# dyn = BFGS(init_conf, trajectory='/home/camgur/Documents/Coding/Chem_4PB3/Resources/Re_fixed.traj')
+# def write():
+#         dyn.atoms.write('/home/camgur/Documents/Coding/Chem_4PB3/Resources/Re_fixed.xyz')
+# dyn.attach(write)
+# dyn.run(fmax=0.05)
