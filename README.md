@@ -1,6 +1,7 @@
 # Sodium Conductor Project
 ### Chem 4PB3 - Winter 2024
 ##### Cameron Gurwell
+<hr></hr>
 
 <p>This repository is intended to hold the data collected for the final project and presentation in
 the class <strong>Chem 4PB3</strong> (Computational Quantum)</p>
@@ -23,4 +24,8 @@ and a library called <strong>BVLain</strong> to construct sodium ion pathways th
 intially developed by the <strong>Mozharivskyj Group</strong> and investigated by the 
 <strong>Goward Group</strong>.</p>
 
-![Sodium Conductor with Channels](/assets/images/tux.png)
+<hr></hr>
+
+### Na<sub>4</sub>Sn<sub>2</sub>Ge<sub>5</sub>O<sub>16</sub>
+
+![Sodium Conductor with Channels](https://github.com/Camgur/4PB3_Sodium_Conductor/blob/89063e302fde4656a65c12b8e674236dbfd52be6/Figures/Na4Sn2Ge5O16.png)
