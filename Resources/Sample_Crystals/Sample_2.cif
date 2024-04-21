@@ -1,0 +1,65 @@
+#############################################################
+#             ______       _    _          _                #
+#            (_____ \     \ \  / /        | |               #
+#             _____) )   _ \ \/ / |_  ____| |               #
+#            |  ____/ | | | )  (|  _)/ _  | |               #
+#            | |    | |_| |/ /\ \ |_( (_| | |___            #
+#            |_|     \__  /_/  \_\___)__|_|_____)           #
+#                   (____/                                  #
+#---------------------(version    0.6.4)--------------------#
+#       A Python package for random crystal generation      #
+#       url: https://github.com/qzhu2017/pyxtal             #
+#       @Zhu's group at University of Nevada Las Vegas      #
+#############################################################
+data_
+
+_symmetry_space_group_name_H-M 'Pbcn'
+_symmetry_Int_Tables_number                   60
+_symmetry_cell_setting              orthorhombic
+_cell_length_a           16.832451
+_cell_length_b           13.201289
+_cell_length_c            8.304050
+_cell_angle_alpha        90.000000
+_cell_angle_beta         90.000000
+_cell_angle_gamma        90.000000
+_cell_volume           1845.243371
+
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+1 'x, y, z'
+2 '-x+1/2, -y+1/2, z+1/2'
+3 '-x, y, -z+1/2'
+4 'x+1/2, -y+1/2, -z'
+5 '-x, -y, -z'
+6 'x+1/2, y+1/2, -z+1/2'
+7 'x, -y, z+1/2'
+8 '-x+1/2, y+1/2, z'
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_symmetry_multiplicity
+ _atom_site_Wyckoff_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+Ge     Ge       4 b     0.000000    0.500000    0.000000 1
+Ge     Ge       8 d     0.898715    0.925875    0.493226 1
+Ge     Ge       4 a     0.000000    0.000000    0.000000 1
+Ge     Ge       4 c     0.000000    0.856270    0.250000 1
+Na     Na       4 c     0.000000    0.308885    0.250000 1
+Na     Na       8 d     0.315681    0.157384    0.496964 1
+Na     Na       4 c     0.000000    0.718303    0.250000 1
+O      O        8 d     0.634694    0.040490    0.169029 1
+O      O        8 d     0.019038    0.425059    0.466202 1
+O      O        8 d     0.049887    0.878967    0.092564 1
+O      O        8 d     0.466112    0.343714    0.864216 1
+O      O        8 d     0.693281    0.291032    0.811997 1
+O      O        8 d     0.828807    0.556171    0.809439 1
+O      O        8 d     0.699579    0.883027    0.689030 1
+O      O        8 d     0.246820    0.511303    0.491404 1
+Sn     Sn       8 d     0.623294    0.198399    0.320052 1
+#END
+
