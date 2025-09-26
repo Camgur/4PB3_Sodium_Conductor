@@ -14,7 +14,7 @@ to crunch the large amounts of data and numbers. This project was aimed at inves
 developments into low power structure optimisation using ML.</p>
 
 <p><strong>MACE</strong>, the optimisation library used inside of <strong>Python</strong>, was developed
-using the <strong>ASE</strong> framework and uses complex ANSATZ picking to construct wavefunctions. 
+using the <strong>ASE</strong> framework and uses graphs to converge without constructing wavefunctions. 
 <strong>MACE-MP-0</strong>, the model used ontop of MACE, was developed by the 
 <strong>Materials Project</strong> and <strong>MACE</strong> as a pretrained model to pick ANSATZ for 
 89 elements on the periodic table.</p>
